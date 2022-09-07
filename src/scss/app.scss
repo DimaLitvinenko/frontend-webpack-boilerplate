@@ -1,13 +1,13 @@
 /* By Athlon Front-End Team */
 
 /* Core variables */
-@import 'base/vars';
+@import 'base/variables';
 
 /* CSS Reset */
 @import 'base/reset';
 
 /* CSS print */
-@import 'base/print';
+// @import 'base/print';
 
 /* Fonts */
 @import 'base/fonts';
@@ -18,9 +18,17 @@
 /* Vendor */
 
 /* Components */
+@import 'base/common';
+@import 'base/container';
+@import 'base/backdrop';
+
+
+@import 'base/modal-window';
 
 /* Browser specific styles */
 @import 'dirty/hacks';
 
 /* Demo Page styles */
-@import 'demo';
+// @import 'demo';
+@import 'base/header';
+@import 'base/main';

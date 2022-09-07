@@ -1,0 +1,22 @@
+$main-font: pacifico, sans-serif;    // 400, 700
+$secondary-font: sanvito-pro-display, sans-serif;  // 700
+$third-font: rokkitt, serif;       // 600, 800, 900
+$fourth-font: acuta, serif;        // 300, 500, 800 900
+// Colors
+$primary-white-color: #ffffff;
+$primary-text-color: #757575;
+$title-text-color: #212121;
+$accent-color: #f36b21;
+$secondary-accent-color: #ce3a04e7;
+$accent-third: #d8300aea ;
+$footer-link-color: rgba(255, 255, 255, 0.6);
+$icon-color: #bf6c14;
+// Animation
+$animation-timing: cubic-bezier(0.4, 0, 0.2, 1);
+$animation-duration: 250ms;
+$animation-long: 1s;
+// Media screen:
+$small: 320px; // mobile
+$medium: 768px; // tablet
+$large: 1200px; // desktop
+$full: 1400px; // desktop fullHD screen

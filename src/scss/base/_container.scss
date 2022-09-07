@@ -1,0 +1,21 @@
+.container {
+	@media screen and(max-width: $small) {
+		width: 100%;
+		padding: 0 10px;
+	}
+
+	width: $small;
+	margin: 0 auto;
+	padding: 0 15px;
+
+	@media screen and(min-width: $medium) {
+		width: $medium;
+	}
+	@media screen and(min-width: $large) {
+		width: $large;
+		padding: 0 20px;
+	}
+	// @media screen and(min-width: $full) {
+	//   width: $full;
+	// }
+}
